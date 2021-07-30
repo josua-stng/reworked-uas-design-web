@@ -1,0 +1,189 @@
+:root{
+    --abuabu:#ddd;
+    --blue:#149dcc;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+body{
+    padding-bottom: 10px;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding:  18px ;
+    background-color: var(--abuabu);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+    
+    
+}
+li{
+    padding: 0 7px;
+    list-style: none; 
+}
+
+li a{
+    text-decoration: none;
+}
+nav ul :hover{
+    color: red;
+}
+
+
+.contact{
+    background-color:var(--blue);
+    padding: 10px 35px;
+    border-radius: 50px;
+    color: white;
+}
+
+
+
+.item{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.item img{
+    width: 800px;
+    height: 500px;
+}
+.name{
+    line-height: 70px;
+}
+.name h1{
+    font-family: sans-serif;
+    font-size: 75px;
+}
+.name p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.item .name{
+    padding-top: 200px;
+}
+
+
+.bar{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--abuabu);
+    padding: 50px;
+}
+.item2{
+    border: 3px solid black;
+    padding: 15px  50px;
+    border-radius: 50px;
+}
+
+.word{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding: 0 580px;
+    line-height: 25px;
+    
+}
+.work p{
+    text-align: start;
+    padding-top: 10px;
+}
+.work h1{
+    font-size: 20px;
+}
+.work img{
+    width: 400px;
+    background-size: cover;
+}
+.work .letter{
+    padding: 0 50px;
+}
+
+.tittle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.awards{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: start;
+    padding: 50px;
+    line-height: 25px;
+    background-color: var(--abuabu);   
+}
+.two{
+    padding: 20px 0;
+}
+.koko{
+    width: 40%;
+   padding-left: 550px;
+   line-height: 25px;
+}
+
+.awardss{
+    margin-top: 100px;
+    text-align: start;
+    padding: 50px;
+    line-height: 25px;
+    
+}
+.kokos{
+    width: 39%;
+   padding-left: 550px;
+   line-height: 25px;
+}
+
+.last{
+    background-color: var(--blue);
+    margin-top: 100px;   
+    padding: 30px 0;
+}
+.social .follow{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.lambang {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.lambang i{
+    font-size: 45px;
+    padding: 0 20px;
+}
+
+footer{
+    background-color: var(--abuabu);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
